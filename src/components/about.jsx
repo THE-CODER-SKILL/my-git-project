@@ -2,10 +2,6 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import React, { useRef, useState, useEffect } from 'react';
-import { useRef, useState, useEffect } from 'react';
-
-
-
 
 
 const FloatingBadge = () => {
@@ -67,11 +63,7 @@ const FloatingBadge = () => {
   return (
     <div className="save-gaza-r" id="saveGazaElement" ref={elementRef}>
       <div className="svg-holder absolute w-full h-full top-0 left-0 -z-10">
-        {/* SVG of the Palestine flag */}
-        {/* Replace below with <FlagSVG /> if modularizing */}
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 218 621" className="floating-svg">
-          {/* Your full SVG path here */}
-          {/* Keeping it short here for readability */}
           <rect width="1200" height="200" fill="#000" />
           <rect width="1200" height="200" y="200" fill="#fff" />
           <rect width="1200" height="200" y="400" fill="#007a3d" />
@@ -87,3 +79,5 @@ const FloatingBadge = () => {
 };
 
 export default FloatingBadge;
+
+
