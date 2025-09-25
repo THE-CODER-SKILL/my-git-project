@@ -10,7 +10,7 @@ const Portfolio = () => {
       {/* Navbar */}
       <nav className="navbar navbar-expand-lg bg-primary navbar-dark sticky-top shadow-sm py-3">
         <div className="container">
-          <a className="navbar-brand fw-bold" >Manikandan</a>
+          <h1>Manikandan</h1>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCentered">
             <span className="navbar-toggler-icon"></span>
           </button>
